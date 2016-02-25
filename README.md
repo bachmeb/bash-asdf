@@ -9,7 +9,7 @@ a script to record random thoughts and output timecoded files
         cp asdf ~
 #### Create the asdf.d directory
         mkdir ~/asdf.d
-#### Make the asdf executable
+#### Make asdf executable
         chmod +x asdf
 #### Run the script
         ./asdf
