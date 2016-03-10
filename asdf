@@ -13,6 +13,8 @@
 #0.1.5  changed directory to save to
 #Fri Sep 26 04:09:21 UTC 2003
 #0.1.5.1 copied to sdf
+#Tue Nov 23 16:41:23 UTC 2004
+#0.1.6 changed output folder
 ################################################################################
 #ToDo list
 #Tue Aug 12 19:20:53 UTC 2003
@@ -39,7 +41,7 @@
 ################################################################################
 
  #set the version
-VERSION=0.1.5.1
+VERSION=0.1.6
 
  #get the timecode for the beginning of the note
  #it's important to have no space on either side of the equal sign when assigning variable values
@@ -54,7 +56,7 @@ read IDEA
 EDATETIME=`date -u +%Y%m%d%H%M%S`
 
 #establish new file name
-NEWFILE=~/html/Library/words/$SDATETIME
+NEWFILE=~/html/asdf/$SDATETIME
 
 #create new file with current date time as first line
 echo $SDATETIME > $NEWFILE
