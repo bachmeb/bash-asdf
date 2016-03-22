@@ -1,6 +1,6 @@
 # bash-asdf
 
-a script to record random thoughts and output timecoded files
+a script to record notes and output timecoded files
 
 ## References
 * http://askubuntu.com/questions/484718/how-to-make-a-file-executable
